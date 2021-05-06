@@ -116,8 +116,8 @@ contract ERC20Token is StandardToken {
 
     function ERC20Token(
         ) {
-        balances[msg.sender] = 35000;               // Give the creator all initial tokens (100000 for example)
-        totalSupply = 35000;                        // Update total supply (100000 for example)
+        balances[msg.sender] = 35000000000000000000000 ;               // Give the creator all initial tokens (100000 for example)
+        totalSupply = 35000000000000000000000;                        // Update total supply (100000 for example)
         name = "VetCoin";                                   // Set the name for display purposes
         decimals = 18;                            // Amount of decimals for display purposes
         symbol = "VTC";                               // Set the symbol for display purposes
